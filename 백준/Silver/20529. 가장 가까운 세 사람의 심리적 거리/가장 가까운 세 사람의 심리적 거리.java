@@ -18,6 +18,11 @@ public class Main {
             String[] MBTI = new String[N];
             StringTokenizer st = new StringTokenizer(br.readLine());
 
+            if (N > 32) {
+                sb.append(0 + "\n");
+                continue;
+            }
+
             for (int i = 0; i < N; i++) {
                 MBTI[i] = st.nextToken();
             }
