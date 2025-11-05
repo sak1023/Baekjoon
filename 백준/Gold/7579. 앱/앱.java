@@ -42,7 +42,7 @@ public class Main {
             }
         }
 
-        for (int i = 1; i <= 10000; i++) {
+        for (int i = 0; i <= 10000; i++) {
             if (dp[i] >= M) {
                 bw.write(Integer.toString(i));
                 break;
